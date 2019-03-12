@@ -22,7 +22,7 @@ nav {
     text-decoration: none;
     font-family: "Open Sans";
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     color: #000000;
     line-height: 2;
     vertical-align: -13px;
@@ -30,7 +30,7 @@ nav {
 }
 
 .logo {
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     font-size: 30px;
     margin: 0 40vw 0 0;
@@ -51,7 +51,7 @@ nav {
 .logo::before {
     content: "M";
     color: #1abc9c;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .menu_items:hover > a {
@@ -77,15 +77,21 @@ nav {
 }
 
 .tours {
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 55px;
     color: #ffffff;
     display: inline-block;
     width: 80vw;
 }
+
+.tours {
+    contant: "AFFORDABLE";
+    color: #df9408;
+    font-weight: 700;
+}
 .tours_info {
     color: #ffffff;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     display: block;
     font-size: 22px;
@@ -129,7 +135,8 @@ nav {
 .new {
     margin: 10vh 0 10vh 35vw;
     display: inline-block;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: ;
     font-size: 40px;
     color: #555252;
 }
@@ -143,6 +150,13 @@ nav {
     margin: 0.5em 0 0 3em;
 }
 
+.cloths:hover .description  {
+    background-color:#1abc9c;
+ }
+ 
+ .cloths:hover .price {
+    background-color: #1abc9c;
+ }
 .cloths {
     float: left;
     margin: 0 2em 2em 0;
@@ -170,7 +184,7 @@ nav {
     width: 191px;
     height: 40px;
     margin: 0px 0 0 0;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
     vertical-align: bottom;
@@ -184,7 +198,7 @@ nav {
     width: 54px;
     height: 40px;
     margin: 0px 0 0 -4px;
-    font-family: Roboto; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 18px;
     font-weight: 500;
     color: #ffffff;
